@@ -1,6 +1,6 @@
 # Bai1eScript
 Author: Braden Burns https://github.com/DasFerrus
-Date: March 25, 2017
+Date: March 24, 2017
 
 Bai1eScript is a scripting language made for the BadUSB developed by Seytonic. 
 Check out his YouTube channel here: https://www.youtube.com/channel/UCW6xlqxSY3gGur4PkGPEUeA
