@@ -1,6 +1,6 @@
 //Bai1eScript Interpreter for Arduino
 //Author: Braden Burns dasferrus.github.io
-//Contributors: Not Jarod cause he's a cunt
+//Contributors: Not Jarod
 
 #include <SPI.h>
 #include <SD.h>
@@ -116,12 +116,16 @@ void Press(String b)
     Keyboard.press(KEY_LEFT_CTRL);
     Keyboard.press(KEY_LEFT_SHIFT);
     Keyboard.press(KEY_RETURN);
-    delay(50);
+    delay(10);
     Keyboard.releaseAll();
     delay(200);
     Keyboard.write(KEY_LEFT_ARROW);
-    delay(100);
+    delay(50);
     Keyboard.write(KEY_RETURN);
+  }
+  else if (b.equals("RELEASE"))
+  {
+    Keyboard.releaseAll();
   }
   else if (b.equals("RET") || b.equals("RETURN"))
   {
